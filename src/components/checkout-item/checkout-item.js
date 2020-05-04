@@ -4,11 +4,11 @@ import { connect } from 'react-redux'
 import { clearItemFromCart } from "../../redux/cart/cart.action"
 import { addItem, removeItem } from '../../redux/cart/cart.action'
 
-
+// you can use this to destruct  { cartItem: {name, imageUlr, quantity, price} }
 const CheckoutItem = ({ cartItem, clearItem, addItem, removeItem }) => (
 
-    // you can use this to destruct  { cartItem: {name, imageUlr, quantity, price} }
-    <div className="checkout-item">
+    <div className="checkout-item">     
+    
         <div className="image-container">
             <img alt="item" src={cartItem.imageUrl} />
         </div>
