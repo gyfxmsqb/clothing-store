@@ -1,7 +1,7 @@
 import React from 'react'
 import "./header.scss"
 import { Link } from 'react-router-dom'
-import { ReactComponent as Logo } from "../../assets/crown.svg"
+import { ReactComponent as Logo } from "../../assets/shirt.svg"
 import { auth } from '../../firebase/firebase.utils'
 import { connect } from 'react-redux'
 import CartIcon from '../cart-icon/cart-icon'
