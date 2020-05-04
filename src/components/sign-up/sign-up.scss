@@ -2,6 +2,10 @@
     display: felx;
     flex-direction: column;
     width: 380px;
+    @media screen and (max-width: 800px){
+        margin-top: 30px;
+  
+      }
 }
 .title{
     margin: 10px 0;
