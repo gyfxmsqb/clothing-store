@@ -3,6 +3,12 @@
     flex-direction: column;
     margin-bottom: 30px;
   
+
+    @media screen and (max-width: 800px){
+      //any screen with 800px and less will get this style
+      align-items: center;
+  }
+
     .title {
       font-size: 28px;
       margin-bottom: 25px;
@@ -11,6 +17,14 @@
     .preview {
       display: flex;
       justify-content: space-between;
+
+      @media screen and (max-width: 800px){
+        //any screen with 800px and less will get this style
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:15px;
+
+    }
     }
   }
   
